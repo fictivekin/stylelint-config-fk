@@ -1,0 +1,28 @@
+{
+  "name": "@fictivekin/stylelint-config-fk",
+  "version": "1.0.0",
+  "description": "Fictive Kin sharable stylelint configuration",
+  "license": "MIT",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/fictivekin/stylelint-config-fk.git"
+  },
+  "author": {
+    "name": "Fictive Kin",
+    "email": "hello@fictivekin.com",
+    "url": "https://fictivekin.com/"
+  },
+  "bugs": {
+    "url": "https://github.com/fictivekin/stylelint-config-fk/issues"
+  },
+  "homepage": "https://github.com/fictivekin/stylelint-config-fk#readme",
+  "peerDependencies": {
+    "stylelint": ">= 13",
+    "stylelint-order": ">= 4",
+    "stylelint-scss": ">= 3"
+  }
+}
