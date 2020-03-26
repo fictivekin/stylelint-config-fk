@@ -13,6 +13,6 @@ In your package.json file, add:
 
 ```
 "stylelint": {
-    "extends": "stylelint-config-fk"
+    "extends": "@fictivekin/stylelint-config-fk"
 }
 ```
