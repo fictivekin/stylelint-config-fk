@@ -3,6 +3,7 @@ module.exports = {
     "stylelint-order",
     "stylelint-scss"
   ],
+  "ignoreFiles": ["**/*.css", "**/kss"],
   "rules": {
     "at-rule-no-unknown": null,
     "block-closing-brace-empty-line-before": "never",
