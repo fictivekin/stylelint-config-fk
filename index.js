@@ -38,6 +38,10 @@ module.exports = {
     "function-linear-gradient-no-nonstandard-direction": true,
     "function-name-case": "lower",
     "function-parentheses-newline-inside": "always-multi-line",
+    "indentation": [4, {
+        "except": ["value"],
+        "severity": "error"
+    }],
     "keyframe-declaration-no-important": true,
     "length-zero-no-unit": true,
     "max-empty-lines": 4,
