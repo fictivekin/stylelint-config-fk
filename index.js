@@ -40,6 +40,7 @@ module.exports = {
     "function-parentheses-newline-inside": "always-multi-line",
     "indentation": [4, {
         "except": ["value"],
+        "indentInsideParens": "once-at-root-twice-in-block",
         "severity": "error"
     }],
     "keyframe-declaration-no-important": true,
