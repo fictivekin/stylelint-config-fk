@@ -53,7 +53,9 @@ module.exports = {
     "media-feature-colon-space-after": "always",
     "media-feature-colon-space-before": "never",
     "media-feature-name-case": "lower",
-    "media-feature-name-no-unknown": true,
+    "media-feature-name-no-unknown":[true, {
+      "ignoreMediaFeatureNames": ["query"]
+    }],
     "media-feature-parentheses-space-inside": "never",
     "media-feature-range-operator-space-after": "always",
     "media-feature-range-operator-space-before": "always",
@@ -87,7 +89,7 @@ module.exports = {
     "scss/dollar-variable-no-missing-interpolation": true,
     "scss/double-slash-comment-empty-line-before": ["always", {
         "except": ["first-nested"],
-        "ignore": ["between-comments"]
+        "ignore": ["between-comments", "inside-block"]
     }],
     "scss/double-slash-comment-whitespace-inside": "always",
     "scss/operator-no-newline-after": true,
@@ -115,7 +117,7 @@ module.exports = {
     "unit-case": "lower",
     "unit-no-unknown": true,
     "value-keyword-case": ["lower", {
-        "ignoreProperties": ["/^\\$.*$/"]
+        "ignoreProperties": ["/^\\$.*$/", 'text-rendering']
     }]
   }
 }
