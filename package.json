@@ -1,6 +1,6 @@
 {
     "name": "@fictivekin/stylelint-config-fk",
-    "version": "2.0.1",
+    "version": "2.0.2",
     "description": "Fictive Kin sharable stylelint configuration",
     "license": "MIT",
     "main": "index.js",
