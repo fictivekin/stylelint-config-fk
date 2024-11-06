@@ -13,4 +13,4 @@ charset = utf-8
 trim_trailing_whitespace = false
 
 [*.{js,json,yml,*rc,*ignore}]
-indent_size = 2
+indent_size = 4

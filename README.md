@@ -6,7 +6,7 @@ Fictive Kin sharable stylelint configuration
 Run the following in your project directory to install:
 
 ```
-yarn add stylelint stylelint-order stylelint-scss @fictivekin/stylelint-config-fk --dev
+yarn add stylelint stylelint-actions-formatters stylelint-config-standard-scss stylelint-order stylelint-scss @fictivekin/stylelint-config-fk --dev
 ```
 
 In your package.json file, add:

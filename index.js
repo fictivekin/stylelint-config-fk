@@ -1,11 +1,11 @@
 module.exports = {
-  "extends": "stylelint-config-standard-scss",
-  "ignoreFiles": ["**/*.css", "**/kss"],
-  "plugins": [
-    "stylelint-order",
-    "stylelint-scss"
-  ],
-  "rules": {
+    "extends": "stylelint-config-standard-scss",
+    "ignoreFiles": ["**/*.css", "**/kss"],
+    "plugins": [
+        "stylelint-order",
+        "stylelint-scss"
+    ],
+    "rules": {
     "at-rule-no-unknown": null,
     "block-no-empty": true,
     "color-hex-length": "short",
