@@ -1,30 +1,30 @@
 {
-  "name": "@fictivekin/stylelint-config-fk",
-  "version": "2.0.0",
-  "description": "Fictive Kin sharable stylelint configuration",
-  "license": "MIT",
-  "main": "index.js",
-  "files": [
-    "index.js"
-  ],
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/fictivekin/stylelint-config-fk.git"
-  },
-  "author": {
-    "name": "Fictive Kin",
-    "email": "hello@fictivekin.com",
-    "url": "https://fictivekin.com/"
-  },
-  "bugs": {
-    "url": "https://github.com/fictivekin/stylelint-config-fk/issues"
-  },
-  "homepage": "https://github.com/fictivekin/stylelint-config-fk#readme",
-  "peerDependencies": {
-    "stylelint": ">= 16",
-    "stylelint-actions-formatters": ">= 16",
-    "stylelint-config-standard-scss": ">= 13",
-    "stylelint-order": ">= 6",
-    "stylelint-scss": ">= 6"
-  }
+    "name": "@fictivekin/stylelint-config-fk",
+    "version": "2.0.1",
+    "description": "Fictive Kin sharable stylelint configuration",
+    "license": "MIT",
+    "main": "index.js",
+    "files": [
+        "index.js"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/fictivekin/stylelint-config-fk.git"
+    },
+    "author": {
+        "name": "Fictive Kin",
+        "email": "hello@fictivekin.com",
+        "url": "https://fictivekin.com/"
+    },
+    "bugs": {
+        "url": "https://github.com/fictivekin/stylelint-config-fk/issues"
+    },
+    "homepage": "https://github.com/fictivekin/stylelint-config-fk#readme",
+    "peerDependencies": {
+        "stylelint": ">= 16",
+        "stylelint-actions-formatters": ">= 16",
+        "stylelint-config-standard-scss": ">= 13",
+        "stylelint-order": ">= 6",
+        "stylelint-scss": ">= 6"
+    }
 }
